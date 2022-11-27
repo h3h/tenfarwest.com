@@ -227,7 +227,11 @@ a.header-link:active {
 
 .main-content .logo {
   margin: 4em auto 0;
-  width: 512px;
+  max-width: 512px;
+}
+.main-content .logo img {
+  height: auto;
+  max-width: 100%;
 }
 .main-content .wordmark {
   cursor: default;
